@@ -1,0 +1,11 @@
+export const typeStateResponseUpdate = {
+    SUCCESS: "SUCCESS", 
+    ERROR: "ERROR", 
+    UNEXPECTED_ERROR: "UNEXPECTED_ERROR",
+    LOADING: "LOADING" 
+};
+export const typeStateViewNewStudent = {
+    INFO_REPRESENTATIVE: "INFO_REPRESENTATIVE", 
+    INFO_STUDENT: "INFO_STUDENT", 
+    GENERATE_ACCOUNT: "GENERATE_ACCOUNT" 
+};

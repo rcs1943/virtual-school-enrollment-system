@@ -1,0 +1,64 @@
+/* Custom properties */
+:root {
+    --primary-color: #1E548C;
+    --secondary-color: #224957;
+    --secondary-2-color: #16469D;
+    --third-color: #FFFFFF;
+    --fourth-color: #EEEEEE;
+    --fifth-color: #3C3C3C;
+    --sixth-color: #696969;
+    --seventh-color: #EE3042;
+    --seventh-color-dark: #cf2435;
+    --eight-color: #737373;
+    --nine-color: #e4e4e4;
+    --secondary-blue: #165FC8;
+    --verification: #01B613;
+}
+/* General */
+* {
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif !important;
+}
+*::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+*::-webkit-scrollbar-track {
+    background-color: var(--fifth-color);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: var(--sixth-color);
+    border-radius: 5px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+/* Titles */
+.custom-title-1 {
+    font-size: 35px;
+    color: var(--primary-color);
+}
+.custom-title-2 {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.custom-title-3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+.custom-title-4 {
+    font-size: 15px;
+    color: var(--secondary-color)
+}
+.custom-title-6 {
+    color: var(--third-color);
+}
+
+/* Extra */
+/* Home */
+main.home {
+    background-color: var(--secondary-2-color);
+}

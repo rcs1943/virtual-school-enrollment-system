@@ -1,0 +1,17 @@
+# SISTEMA DE MATRÍCULAS PARA UNA INSTITUCIÓN EDUCATIVA PÚBLICA "Victor Manuel Maurtua"
+
+Se desea implementar un sistema de matrículas para la IEP "Victor Manuel Maurtua" en Ica - Perú. 
+
+- La institución es de solo nivel secundaria.
+- Donde para matrícula un alumno se debe tener los datos de: nombres, apellidos, edad, grado actual y al que desea matrícularse, fecha de matrícula, fecha de pago, monto del pago, correo electrónico, número(s) del apoderado, DNI, DNI del apoderado, si es nuevo, repitente (vez que cursa el grado), dirección, si tiene partida de nacimiento.
+- Un alumno puede matricularse a solo un grado, sección y turno y una vez por año, y este grado tiene cursos definidos, y debe ser el grado que sigue al actual o al actual si es repitente.
+- Un alumno solo puede tener un apoderado, pero este puede serlo de muchos.
+- Tomar en cuenta si el alumno viene de nacional o particular para aplicar a un número definido de vacantes.
+- El pago debe ser realizado para que la matrícula sea registrada.
+- El pago se debe hacer en bancos autorizados.
+- Un profesor puede ser tutor de un salón.
+- Un profesor puede enseñar muchas asignaturas.
+- Una asignatura debe ser enseñado solo por un profesor.
+
+
+
